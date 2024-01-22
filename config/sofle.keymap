@@ -120,7 +120,7 @@
 //               | ALT | CTRL | BASE | SPACE| SPACE  |  | ENTER | Lang | RAISE |  *    |  +   |
              bindings = <
 &kp GRAVE  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5                               &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp BSPC
-&kp TAB    &kp F11      &kp F12      &kp UP       &kp LBRC     &kp RBRC                             &kp N0    &kp N1   &kp N2          &kp N3    &kp DEL   &kp BSLH
+&kp TAB    &kp F11      &kp F12      &kp UP       &kp LBKT     &kp RBKT                             &kp N0    &kp N1   &kp N2          &kp N3    &kp DEL   &kp BSLH
 &kp LSHFT  &none        &kp LEFT     &kp DOWN     &kp RIGHT    &none                                &kp EQUAL &kp N4   &kp N5          &kp N6    &kp COLON &kp SQT
 &kp LGUI   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none    &none        &kp UNDER &kp N7   &kp N8          &kp N9    &kp DOT   &kp RSHFT
                  &kp LALT &kp LCTRL&to MAC_BASE &kp SPACE  &kp SPACE                      &kp RET  &kp LANG1 &to MAC_RAISE  &kp STAR  &kp PLUS
@@ -139,7 +139,7 @@
 //                | ALT  |  CTRL | LOWER | SPACE| SPACE|  | ENTER| Lang | BASE |       |      |
             bindings = <
 &bt BT_CLR &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                        &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp BSPC
-&kp CAPS   &kp INS      &kp HOME     &kp PGUP     &kp LBRC     &kp RBRC                      &none     &kp LPAR  &kp RPAR  &none     &kp DEL   &tog BASE
+&kp CAPS   &kp INS      &kp HOME     &kp PGUP     &kp LBKT     &kp RBKT                      &none     &kp LPAR  &kp RPAR  &none     &kp DEL   &tog BASE
 &kp LSHFT  &kp DEL      &kp END      &kp PGDN     &none        &none                         &none     &kp LBRC  &kp RBRC  &none     &kp COLON &kp SQT
 &kp LGUI   &kp K_UNDO   &kp K_CUT    &kp K_COPY   &kp K_PASTE  &none         &none   &none   &none     &none     &none     &none     &none     &none
                         &kp LALT    &kp LCTRL    &to MAC_LOWER   &kp SPACE &kp SPACE        &kp RET   &kp LANG1 &to MAC_BASE &none     &none     &none
