@@ -56,13 +56,13 @@
 // ------------------------------------------------------------------------------------------------------------
 // |  ESC  |  {  |  }  |      |      |      |                   |      |  1    |  2    |  3   |   −   | BKSPC |
 // |  TAB  |  (  |  )  |  UP  |  [   |  ]   |                   |  =   |  4    |  5    |  6   |   +   | DEL   |
-// | SHIFT |     | LEFT| DOWN |RIGHT |  :   |                   |      |  7    |  8    |  9   |   ;   |   '   |
+// | SHIFT |     | LEFT| DOWN |RIGHT |  :   |                   |  _   |  7    |  8    |  9   |   ;   |   '   |
 // | CTRL  | BT1 | BT2 | BT3  | BT4  | BT5  |        |  |       |      |  0    |  ,    |  .   |   /   | SHIFT |
 //               | GUI | ALT  | BASE | SPACE| SPACE  |  | ENTER | Lang | RAISE |       |  \   |
              bindings = <
 &kp ESC    &kp LBRC     &kp RBRC     &none        &none        &none                                &none     &kp N1   &kp N2          &kp N3    &kp MINUS &kp BSPC
 &kp TAB    &kp LPAR     &kp RPAR     &kp UP       &kp LBKT     &kp RBKT                             &kp EQUAL &kp N4   &kp N5          &kp N6    &kp PLUS  &kp DEL
-&kp LSHFT  &none        &kp LEFT     &kp DOWN     &kp RIGHT    &kp COLON                            &none     &kp N7   &kp N8          &kp N9    &kp SEMI  &kp SQT
+&kp LSHFT  &none        &kp LEFT     &kp DOWN     &kp RIGHT    &kp COLON                            &kp UNDER &kp N7   &kp N8          &kp N9    &kp SEMI  &kp SQT
 &kp LCTRL  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none  &none          &none     &kp N0   &kp COMMA       &kp DOT   &kp FSLH  &kp RSHFT
                  &kp LGUI &kp LALT &to BASE &kp SPACE  &kp SPACE                          &kp RET   &kp LANG1 &to RAISE&none           &kp BSLH
             >;
@@ -115,13 +115,13 @@
 // ------------------------------------------------------------------------------------------------------------
 // |  ESC  |  {  |  }  |      |      |      |                   |      |  1    |  2    |  3   |   −   | BKSPC |
 // |  TAB  |  (  |  )  |  UP  |  [   |  ]   |                   |  =   |  4    |  5    |  6   |   +   | DEL   |
-// | SHIFT |     | LEFT| DOWN |RIGHT |  :   |                   |      |  7    |  8    |  9   |   ;   |   '   |
+// | SHIFT |     | LEFT| DOWN |RIGHT |  :   |                   |  _   |  7    |  8    |  9   |   ;   |   '   |
 // | CTRL  | BT1 | BT2 | BT3  | BT4  | BT5  |        |  |       |      |  0    |  ,    |  .   |   /   | SHIFT |
 //               | GUI | ALT  | BASE | SPACE| SPACE  |  | ENTER | Lang | RAISE |       |  \   |
              bindings = <
 &kp ESC    &kp LBRC     &kp RBRC     &none        &none        &none                                &none     &kp N1   &kp N2          &kp N3    &kp MINUS &kp BSPC
 &kp TAB    &kp LPAR     &kp RPAR     &kp UP       &kp LBKT     &kp RBKT                             &kp EQUAL &kp N4   &kp N5          &kp N6    &kp PLUS  &kp DEL
-&kp LSHFT  &none        &kp LEFT     &kp DOWN     &kp RIGHT    &kp COLON                            &none     &kp N7   &kp N8          &kp N9    &kp SEMI  &kp SQT
+&kp LSHFT  &none        &kp LEFT     &kp DOWN     &kp RIGHT    &kp COLON                            &kp UNDER &kp N7   &kp N8          &kp N9    &kp SEMI  &kp SQT
 &kp LGUI  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &none  &none          &none     &kp N0   &kp COMMA       &kp DOT   &kp FSLH  &kp RSHFT
                  &kp LALT &kp LCTRL &to MAC_BASE &kp SPACE  &kp SPACE                          &kp RET   &kp LANG1 &to MAC_RAISE&none           &kp BSLH
             >;
